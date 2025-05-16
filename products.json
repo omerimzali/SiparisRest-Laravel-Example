@@ -1,0 +1,6 @@
+[
+  {"id":101,"name":"Laptop","category":1,"price":15000,"stock":10},
+  {"id":102,"name":"Mouse","category":2,"price":100,"stock":100},
+  {"id":103,"name":"Keyboard","category":2,"price":250,"stock":50},
+  {"id":104,"name":"Monitor","category":1,"price":2000,"stock":25}
+]
