@@ -36,7 +36,12 @@ Bu proje, Laravel tabanlı bir web uygulamasıdır. Aşağıda projenin kurulum 
    docker-compose exec app php artisan migrate
    ```
 
-7. **Servise Erişim:**
+7. **Veritabanını Seed Edin (Örnek Verilerle Doldurun):**
+   ```bash
+   docker-compose exec app php artisan db:seed
+   ```
+
+8. **Servise Erişim:**
    - Uygulama: [http://localhost:8080](http://localhost:8080)
    - MySQL: `localhost:3306`, kullanıcı: `root`, şifre: `root`, veritabanı: `ideasoft`
 
